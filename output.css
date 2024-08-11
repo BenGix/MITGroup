@@ -1813,3 +1813,34 @@ body {
     line-height: 1;
   }
 }
+
+.text-justify{
+  text-align: justify;
+}
+
+.image-grid{
+  transition: all ease .5s;
+transform: translateY(0);
+  object-fit: contain;
+}
+.image-grid:hover {
+  transform: translateY(-5px);
+}
+
+.w-44 {
+  width: 176px;
+}
+
+.max-w-screen-2xl {
+  max-width: 1420px;
+}
+
+.p-15 {
+  padding: 56px;
+}
+
+.color_red{
+  color: #d92027;
+}
+
+
